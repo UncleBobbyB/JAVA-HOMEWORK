@@ -12,7 +12,7 @@ import java.awt.*;
 
 public class Cat {
     // Declaration of instance variables.
-    String name, furType;
+    private String name, furType;
     boolean tail;
     Color colour;
     int speed;
@@ -26,7 +26,48 @@ public class Cat {
         this.speed = speed;
     }
 
+    // Getters and Setters
+    public String getName() {
+        return this.name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public String getFurType() {
+        return this.furType;
+    }
+
+    public void setFurType(String furType) {
+        this.furType = furType;
+    }
+
+    public boolean getTail() {
+        return this.tail;
+    }
+
+    public void setTail(boolean tail) {
+        this.tail = tail;
+    }
+
+    
+    public Color getColour() {
+        return this.colour;
+    }
+
+    public void setColour(Color colour) {
+        this.colour = colour;
+    }
+
+    public int getSpeed() {
+        return this.speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 
     /** This is the sleep method for the cat. It dictates the number of
     * minutes the cat sleeps.

@@ -20,11 +20,11 @@ public class CatTest {
         Cat[] cats = {new Cat("Tom", "short", true, Color.BLACK, 500), new Cat("Moggy", "long", false, Color.WHITE, 400)};
         
         for (int i = 0;i < 2; i++) {
-            System.out.println("name = " + "\"" + cats[i].name + "\"");
-            System.out.println("tail = " + cats[i].tail);
-            System.out.println("speed = " + cats[i].speed);
-            System.out.println("furType = " + "\"" + cats[i].furType + "\"");
-            System.out.println("colour = " + cats[i].colour);
+            System.out.println("name = " + "\"" + cats[i].getName() + "\"");
+            System.out.println("tail = " + cats[i].getTail());
+            System.out.println("speed = " + cats[i].getSpeed());
+            System.out.println("furType = " + "\"" + cats[i].getFurType() + "\"");
+            System.out.println("colour = " + cats[i].getColour());
             System.out.println();
         }
         
