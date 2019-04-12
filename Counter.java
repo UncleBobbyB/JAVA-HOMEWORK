@@ -3,10 +3,9 @@
 * Description: Just homework.
 * Copyright : No copyright.:)
 * @author Yingjie Jiang 
-* @version 1.0
+* @version √2
 */
 public class Counter {
-    
     // private variables
     private int count, max;
 
