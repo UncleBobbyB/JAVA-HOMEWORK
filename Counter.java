@@ -18,6 +18,16 @@ public class Counter {
         this.max = 10;
     }
 
+    Counter(int max) {
+        this.max = max;
+        this.count = 0;
+    }
+
+    // Counter(int count) {
+    //     this.count = count;
+    //     this.max = 10;
+    // }
+
     //Getters and Setters
     /**
      * I'm lazy, so here's the comment.:)

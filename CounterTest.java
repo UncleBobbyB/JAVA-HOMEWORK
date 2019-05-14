@@ -1,7 +1,8 @@
 public class CounterTest {
     public static void main(String[] args) {
-        Counter cntr = new Counter();
-        cntr.setMax(10);
+
+        Counter cntr = new Counter(20);
+        // cntr.setMax(10);
 
         System.out.println(cntr);
         for (int i = 0; i < 6; i++) {
